@@ -4,9 +4,9 @@ public int getNumberOfZerosLoop(int n)
   while(n > 0){
     if(n % 10 == 0)
     {
-      count++;
+      ++count;
     }
-    n = n/10;
+    n = n / 10;
   }
   return count;
 }
