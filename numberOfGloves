@@ -1,0 +1,6 @@
+public int numberOfGloves(int peopleOfPlanetU101InARoom)
+{
+  int numberOfGloves;
+  numberOfGloves = peopleOfPlanetU101InARoom * 3;
+  return numberOfGloves;
+}
